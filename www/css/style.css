@@ -1,2 +1,14 @@
 /**/
 
+.display{
+  margin-top: 10%;
+  height: 80px;
+  font-size: 60px;
+  text-align: right;
+}
+
+.botao{
+  margin-top:30%;
+  font-size: 3em;
+  height: 100px;
+}

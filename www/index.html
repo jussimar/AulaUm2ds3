@@ -7,6 +7,7 @@
  
   <script src="components/loader.js"></script>
   <script src="lib/jquery-3.4.1.min.js"></script>
+  <script src="components/contar.js"></script>
 
   <link rel="stylesheet" href="components/loader.css">
   <link rel="stylesheet" href="lib/css/bootstrap.min.css">
@@ -17,43 +18,70 @@
   </script>
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm">
-        <h1>Calculos</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm">
-        <div class="form-group">
-          <label for="">Valor 1</label>
-          <input type="number" class="form-control">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <div class="form-group">
+            <input type="text" class="form-control display" value="0" readonly>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="row">
-	      <div class="col-sm">
-          <div class="form-group">
-            <label for="">Valor 2</label>
-            <input type="number" class="form-control">
+      <div class="row teclado">
+          <div class="col-3">
+            <button class="btn btn-primary btn-block botao">7</button>
           </div>
-        </div>
-    </div>
-    <div class="row">
-	      <div class="col-sm">
-          <div class="form-group">
-           <button class="btn btn-primary btn-block">Somar</button>
+          <div class="col-3">
+            <button class="btn btn-primary btn-block botao">8</button>
           </div>
-        </div>
-    </div>
-    <div class="row">
-	      <div class="col-sm">
-          <div class="form-group">
-            <label for="">Resultado</label>
-            <input type="number" class="form-control" readonly>
+          <div class="col-3">
+            <button class="btn btn-primary btn-block botao">9</button>
           </div>
-        </div>
+          <div class="col-3">
+            <button class="btn btn-info btn-block botao">+</button>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-3">
+            <button class="btn btn-primary btn-block botao">4</button>
+          </div>
+          <div class="col-3">
+            <button class="btn btn-primary btn-block botao">5</button>
+          </div>
+          <div class="col-3">
+            <button class="btn btn-primary btn-block botao">6</button>
+          </div>
+          <div class="col-3">
+            <button class="btn btn-info btn-block botao">-</button>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-3">
+            <button class="btn btn-primary btn-block botao">1</button>
+          </div>
+          <div class="col-3">
+            <button class="btn btn-primary btn-block botao">2</button>
+          </div>
+          <div class="col-3">
+            <button class="btn btn-primary btn-block botao">3</button>
+          </div>
+          <div class="col-3">
+            <button class="btn btn-info btn-block botao">/</button>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-3">
+            <button class="btn btn-danger btn-block botao">C</button>
+          </div>
+          <div class="col-3">
+            <button class="btn btn-primary btn-block botao">0</button>
+          </div>
+          <div class="col-3">
+            <button class="btn btn-success btn-block botao">=</button>
+          </div>
+          <div class="col-3">
+            <button class="btn btn-info btn-block botao">*</button>
+          </div>
+      </div>
     </div>
-  </div>
 </body>
 </html>
